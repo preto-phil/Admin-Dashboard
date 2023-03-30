@@ -162,8 +162,15 @@ button {
     font-size: 1.1rem;
 }
 
+button:hover {
+    cursor: pointer;
+    background-color: #046ca0;
+}
 
-
+button:active {
+    height: 35px;
+    width: 110px;
+}
 
 
 
