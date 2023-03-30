@@ -62,10 +62,11 @@
 
 input {
     background-color: #b3d7f0;
-    border: 1px solid black;
+    border: none;
     border-radius: 6px;
     height: 25px;
     width: 60%;
+    padding-left: 10px;
 }
 
 
@@ -78,8 +79,23 @@ input {
     justify-content: center;
     align-items: center;
 
+    padding: 10px;
 }
 
+.profiles span {
+    padding: 0 20px;
+
+    font-weight: 700;
+}
+
+.profiles img {
+    height: 30px;
+    border-radius: 50px;
+}
+
+.profiles svg {
+    width: 25px;
+}
 
 /* User */
 
@@ -99,12 +115,19 @@ input {
     align-items: center;
 }
 
+.user-photo img {
+    height: 80px;
+    border-radius: 50px;
+}
+
 .user-hi {
     grid-area: 1 / 2 / 2 / 2;
 
     display: flex;
     justify-content: left;
     align-items: end;
+
+    font-weight: 500;
 }
 
 .user-name {
@@ -115,8 +138,8 @@ input {
     align-items: flex-start;
 
     font-size: 2rem;
+    font-weight: 600;
 }
-
 
 
 /* Buttons */
