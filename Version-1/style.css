@@ -5,6 +5,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    border: 1px dotted burlywood;
 }
 
 /* General Styling */
@@ -12,15 +13,35 @@
 
 /* Container */
 
+.container {
+    width: 100vw;
+    height: 100vh;
+    
+    display: grid;
+    grid-template-rows: 1fr 6fr;
+    grid-template-columns: 1fr 4fr;
+}
 
 /* Header */
 
+.header {
+    grid-area: 1 / 2 / 2 / 3;
+}
 
 /* Sidebar */
 
+.Sidebar {
+    grid-area: 1 / 1 / 4 / 2;
+}
 
 /* Content */
 
+.content {
+    grid-area: 2 / 2 / 3 / 3;
+}
 
 /* Footer */
 
+.footer {
+    grid-area: 3 / 1 / 4 / 3;
+}
