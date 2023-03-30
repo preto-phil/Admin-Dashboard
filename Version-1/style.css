@@ -156,16 +156,23 @@ button {
 
 .dashboard {
     margin: 20px 0;
+    
+    font-size: 2rem;
+    font-weight: 700;
 }
 
-.options {
-    margin: 20px 0;
-}
-
+.options,
 .settings {
+    position: relative;
+    
     margin: 20px 0;
+    font-size: 1.2rem;
+    font-weight: 600;
 }
 
+.options:nth-child(1)::before {
+    
+}
 
 
 
