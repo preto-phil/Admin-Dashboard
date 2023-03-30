@@ -22,6 +22,7 @@
     grid-template-columns: 1fr 4fr;
 }
 
+
 /* Header */
 
 .header {
@@ -38,6 +39,19 @@
 
 .search {
     grid-area: 1 / 1 / 2 / 2;
+
+    display: flex;
+    justify-content: left;
+}
+
+input {
+    background-color: #b3d7f0;
+    border: 1px solid black;
+    border-radius: 6px;
+    height: 32px;
+    width: 40%;
+
+    margin: 10px;
 }
 
 .profile {
@@ -61,7 +75,7 @@
 .sidebar {
     grid-area: 1 / 1 / 4 / 2;
 
-    background-color: #64748b;
+    background-color: #0284c7;
     color: whitesmoke;
 
     display: flex;
@@ -98,7 +112,7 @@
 .content {
     grid-area: 2 / 2 / 3 / 3;
 
-    background-color: #e5e5e5;
+    background-color: #b3d7f0;
 
     display: grid;
     grid-template: 1fr 1fr / 3fr 1fr;
@@ -136,10 +150,14 @@
     gap: 20px;
     
     padding: 0 20px 20px 20px;
+
+
 }
 
 .c-item {
     box-shadow: 2px 2px 8px #d4d4d4;
+
+    border-left: 10px solid #94a3b8;
 }
 
 
