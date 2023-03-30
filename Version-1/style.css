@@ -61,7 +61,7 @@ input {
 
 /* Profile */
 
-.profile {
+.profiles {
     grid-area: 1 / 2 / 2 / 3;
 
     display: flex;
@@ -150,9 +150,11 @@ button {
     padding: 20px;
 }
 
-.sidebar > div > div {
+
+
+/* .sidebar > div > div {
     padding: 5px;
-}
+} */
 
 .dashboard {
     margin: 20px 0;
@@ -170,8 +172,13 @@ button {
     font-weight: 600;
 }
 
-.options:nth-child(1)::before {
-    
+.dashboard > span > svg {
+    width: 50px;
+}
+
+.options > div > span > svg,
+.settings > div > span > svg {
+    width: 25px;
 }
 
 
